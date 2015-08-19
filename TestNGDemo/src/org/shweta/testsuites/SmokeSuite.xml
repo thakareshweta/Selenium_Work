@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegressionSuite">
+	<test name="IndeedSiteTests">
+		<classes>
+			<class name="org.shweta.tests.IndeedTestNGTests2"/>
+			<class name="org.shweta.tests.IndeedTestNGTests"/>
+		</classes>
+	</test>
+	<test name="IndeedTest1">
+		<classes>
+			<class name="org.shweta.tests.TestNGTestCase1"></class>
+		</classes>
+	</test>
+</suite>

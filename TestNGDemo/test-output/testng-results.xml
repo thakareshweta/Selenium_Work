@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="66575" started-at="2015-08-19T00:22:32Z" finished-at="2015-08-19T00:23:38Z">
+    <groups>
+    </groups>
+    <test name="IndeedSiteTests" duration-ms="66539" started-at="2015-08-19T00:22:32Z" finished-at="2015-08-19T00:23:38Z">
+      <class name="org.shweta.tests.IndeedTestNGTests2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="setUp" is-config="true" duration-ms="6035" started-at="2015-08-18T19:22:32Z" finished-at="2015-08-18T19:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testJobSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="testJobSearch" duration-ms="5805" started-at="2015-08-18T19:22:38Z" data-provider="getIndeedJobSearchParam" finished-at="2015-08-18T19:22:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJobSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="tearDown" is-config="true" duration-ms="523" started-at="2015-08-18T19:22:43Z" finished-at="2015-08-18T19:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="setUp" is-config="true" duration-ms="4835" started-at="2015-08-18T19:22:44Z" finished-at="2015-08-18T19:22:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testJobSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="testJobSearch" duration-ms="3105" started-at="2015-08-18T19:22:49Z" data-provider="getIndeedJobSearchParam" finished-at="2015-08-18T19:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cucumber]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJobSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="tearDown" is-config="true" duration-ms="427" started-at="2015-08-18T19:22:52Z" finished-at="2015-08-18T19:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="setUp" is-config="true" duration-ms="4933" started-at="2015-08-18T19:22:52Z" finished-at="2015-08-18T19:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testJobSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="testJobSearch" duration-ms="2391" started-at="2015-08-18T19:22:57Z" data-provider="getIndeedJobSearchParam" finished-at="2015-08-18T19:23:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indianapolis]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJobSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="tearDown" is-config="true" duration-ms="535" started-at="2015-08-18T19:23:00Z" finished-at="2015-08-18T19:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="setUp" is-config="true" duration-ms="4991" started-at="2015-08-18T19:23:00Z" finished-at="2015-08-18T19:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogo()[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="testLogo" duration-ms="1648" started-at="2015-08-18T19:23:05Z" finished-at="2015-08-18T19:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.shweta.tests.IndeedTestNGTests2@10da21bf]" name="tearDown" is-config="true" duration-ms="403" started-at="2015-08-18T19:23:07Z" finished-at="2015-08-18T19:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.shweta.tests.IndeedTestNGTests2 -->
+      <class name="org.shweta.tests.IndeedTestNGTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="setUp" is-config="true" duration-ms="5067" started-at="2015-08-18T19:23:07Z" finished-at="2015-08-18T19:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testJobSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="testJobSearch" duration-ms="2409" started-at="2015-08-18T19:23:12Z" data-provider="getIndeedJobSearchParam" finished-at="2015-08-18T19:23:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJobSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="tearDown" is-config="true" duration-ms="565" started-at="2015-08-18T19:23:15Z" finished-at="2015-08-18T19:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="setUp" is-config="true" duration-ms="4382" started-at="2015-08-18T19:23:15Z" finished-at="2015-08-18T19:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testJobSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="testJobSearch" duration-ms="3136" started-at="2015-08-18T19:23:20Z" data-provider="getIndeedJobSearchParam" finished-at="2015-08-18T19:23:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cucumber]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJobSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="tearDown" is-config="true" duration-ms="590" started-at="2015-08-18T19:23:23Z" finished-at="2015-08-18T19:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="setUp" is-config="true" duration-ms="4775" started-at="2015-08-18T19:23:23Z" finished-at="2015-08-18T19:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testJobSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="testJobSearch" duration-ms="2421" started-at="2015-08-18T19:23:28Z" data-provider="getIndeedJobSearchParam" finished-at="2015-08-18T19:23:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indianapolis]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJobSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="tearDown" is-config="true" duration-ms="546" started-at="2015-08-18T19:23:31Z" finished-at="2015-08-18T19:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="setUp" is-config="true" duration-ms="4482" started-at="2015-08-18T19:23:31Z" finished-at="2015-08-18T19:23:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogo()[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="testLogo" duration-ms="2109" started-at="2015-08-18T19:23:36Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.shweta.tests.IndeedTestNGTests@106f26bb]" name="tearDown" is-config="true" duration-ms="405" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.shweta.tests.IndeedTestNGTests -->
+    </test> <!-- IndeedSiteTests -->
+    <test name="IndeedTest1" duration-ms="16" started-at="2015-08-19T00:23:38Z" finished-at="2015-08-19T00:23:38Z">
+      <class name="org.shweta.tests.TestNGTestCase1">
+        <test-method status="PASS" signature="testSuiteSetUp()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testSuiteSetUp" is-config="true" duration-ms="7" started-at="2015-08-18T19:22:32Z" finished-at="2015-08-18T19:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuiteSetUp -->
+        <test-method status="PASS" signature="testSetUpDB()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testSetUpDB" is-config="true" duration-ms="0" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUpDB -->
+        <test-method status="PASS" signature="testClassStartSelenium()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testClassStartSelenium" is-config="true" duration-ms="1" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassStartSelenium -->
+        <test-method status="PASS" signature="testMethodSetUp()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testMethodSetUp" is-config="true" duration-ms="1" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodSetUp -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testHomePage" duration-ms="0" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="testMethodTearDown()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testMethodTearDown" is-config="true" duration-ms="0" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTearDown -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testLoginPage" duration-ms="1" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testMethodSetUp()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testMethodSetUp" is-config="true" duration-ms="0" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodSetUp -->
+        <test-method status="PASS" signature="testMethodTearDown()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testMethodTearDown" is-config="true" duration-ms="0" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTearDown -->
+        <test-method status="PASS" signature="testMyAccountPage()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testMyAccountPage" duration-ms="4" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyAccountPage -->
+        <test-method status="PASS" signature="testMethodSetUp()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testMethodSetUp" is-config="true" duration-ms="0" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodSetUp -->
+        <test-method status="PASS" signature="testClassStopSelenium()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testClassStopSelenium" is-config="true" duration-ms="2" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassStopSelenium -->
+        <test-method status="PASS" signature="testMethodTearDown()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testMethodTearDown" is-config="true" duration-ms="0" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTearDown -->
+        <test-method status="PASS" signature="testcleanUpDB()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testcleanUpDB" is-config="true" duration-ms="0" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcleanUpDB -->
+        <test-method status="PASS" signature="testSuiteCleanUp()[pri:0, instance:org.shweta.tests.TestNGTestCase1@72215748]" name="testSuiteCleanUp" is-config="true" duration-ms="0" started-at="2015-08-18T19:23:38Z" finished-at="2015-08-18T19:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuiteCleanUp -->
+      </class> <!-- org.shweta.tests.TestNGTestCase1 -->
+    </test> <!-- IndeedTest1 -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
