@@ -18,6 +18,8 @@ public class Calculator {
 	    driver.findElement(By.id("EntryDate")).sendKeys("08/27/2015");
 	    driver.findElement(By.xpath("//input[@name='EntryTimeAMPM'][2]")).click();
 	    
+	  //input[@name='EntryTimeAMPM' and @value='PM']
+	    ////input[@name='EntryTimeAMPM'][2]
 	    
 	    driver.findElement(By.id("ExitTime")).clear();
 	    driver.findElement(By.id("ExitDate")).clear();
