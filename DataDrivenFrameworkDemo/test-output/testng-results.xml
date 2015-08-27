@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35390" started-at="2015-08-23T01:11:42Z" finished-at="2015-08-23T01:12:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35390" started-at="2015-08-23T01:11:42Z" finished-at="2015-08-23T01:12:17Z">
+      <class name="org.shweta.test.LoginTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.shweta.test.LoginTest@2d7480c9]" name="beforeMethod" is-config="true" duration-ms="24409" started-at="2015-08-22T20:11:42Z" finished-at="2015-08-22T20:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginSuccessful()[pri:0, instance:org.shweta.test.LoginTest@2d7480c9]" name="testLoginSuccessful" duration-ms="8257" started-at="2015-08-22T20:12:06Z" finished-at="2015-08-22T20:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessful -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.shweta.test.LoginTest@2d7480c9]" name="afterMethod" is-config="true" duration-ms="2699" started-at="2015-08-22T20:12:15Z" finished-at="2015-08-22T20:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.shweta.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
