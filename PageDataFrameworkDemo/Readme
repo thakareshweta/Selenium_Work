@@ -1,0 +1,15 @@
+Set Up required for this Project
+1. selenium Jar file
+2. To work with excel files we are using Apache POI API. so download Zip file from below location
+http://www.apache.org/dyn/closer.cgi/poi/release/bin/poi-bin-3.12-20150511.zip
+extract all the files
+Right click on Project ->build path -> libraries tab -> click on add External Jar and add the below Jar files
+
+		1. Selenium-server-standalone
+		2. poi-3.12-20150511
+		3. poi-examples-3.12-20150511
+		4. poi-excelant-3.12-20150511
+		5. poi-ooxml-3.12-20150511
+		6. poi-ooxml-schemas-3.12-20150511
+		7. poi-scratchpad-3.12-20150511
+		8. xmlbeans-2.6.0
