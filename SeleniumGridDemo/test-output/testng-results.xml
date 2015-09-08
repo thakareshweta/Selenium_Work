@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSuite" duration-ms="59391" started-at="2015-09-07T18:08:28Z" finished-at="2015-09-07T18:09:27Z">
+    <groups>
+    </groups>
+    <test name="LoginTests" duration-ms="59391" started-at="2015-09-07T18:08:28Z" finished-at="2015-09-07T18:09:27Z">
+      <class name="org.shweta.test.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.shweta.test.LoginTest@753cafa3]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2015-09-07T13:08:28Z" finished-at="2015-09-07T13:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.shweta.test.LoginTest@753cafa3]" name="beforeMethod" is-config="true" duration-ms="8550" started-at="2015-09-07T13:08:28Z" finished-at="2015-09-07T13:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginSuccessful(java.lang.String, java.lang.String)[pri:0, instance:org.shweta.test.LoginTest@753cafa3]" name="testLoginSuccessful" duration-ms="5829" started-at="2015-09-07T13:08:37Z" data-provider="dataProvider" finished-at="2015-09-07T13:08:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testpwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessful -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.shweta.test.LoginTest@753cafa3]" name="afterMethod" is-config="true" duration-ms="638" started-at="2015-09-07T13:08:43Z" finished-at="2015-09-07T13:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.shweta.test.LoginTest@753cafa3]" name="beforeMethod" is-config="true" duration-ms="8851" started-at="2015-09-07T13:08:43Z" finished-at="2015-09-07T13:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginSuccessful(java.lang.String, java.lang.String)[pri:0, instance:org.shweta.test.LoginTest@753cafa3]" name="testLoginSuccessful" duration-ms="17941" started-at="2015-09-07T13:08:52Z" data-provider="dataProvider" finished-at="2015-09-07T13:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testpwd4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessful -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.shweta.test.LoginTest@753cafa3]" name="afterMethod" is-config="true" duration-ms="539" started-at="2015-09-07T13:09:10Z" finished-at="2015-09-07T13:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.shweta.test.LoginTest@753cafa3]" name="beforeMethod" is-config="true" duration-ms="9368" started-at="2015-09-07T13:09:11Z" finished-at="2015-09-07T13:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginSuccessful(java.lang.String, java.lang.String)[pri:0, instance:org.shweta.test.LoginTest@753cafa3]" name="testLoginSuccessful" duration-ms="6322" started-at="2015-09-07T13:09:20Z" data-provider="dataProvider" finished-at="2015-09-07T13:09:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testpwd5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessful -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.shweta.test.LoginTest@753cafa3]" name="afterMethod" is-config="true" duration-ms="654" started-at="2015-09-07T13:09:26Z" finished-at="2015-09-07T13:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.shweta.test.LoginTest -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- testSuite -->
+</testng-results>

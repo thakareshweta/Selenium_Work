@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testSuite]" parallel="tests">
+  <test name="LoginTests(failed)" parallel="tests">
+    <classes>
+      <class name="org.shweta.test.ShopPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- org.shweta.test.ShopPageTest -->
+      <class name="org.shweta.test.LoginTest">
+        <methods>
+          <include name="testLoginSuccessful"/>
+        </methods>
+      </class> <!-- org.shweta.test.LoginTest -->
+    </classes>
+  </test> <!-- LoginTests(failed) -->
+</suite> <!-- Failed suite [testSuite] -->
