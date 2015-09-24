@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66158" started-at="2015-09-06T02:59:15Z" finished-at="2015-09-06T03:00:21Z">
+  <suite name="Default suite" duration-ms="109200" started-at="2015-09-13T18:23:44Z" finished-at="2015-09-13T18:25:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66158" started-at="2015-09-06T02:59:15Z" finished-at="2015-09-06T03:00:21Z">
-      <class name="org.shweta.test.FlightReservationTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.shweta.test.FlightReservationTest@150b51f4]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2015-09-05T21:59:15Z" finished-at="2015-09-05T21:59:15Z">
+    <test name="Default test" duration-ms="109200" started-at="2015-09-13T18:23:44Z" finished-at="2015-09-13T18:25:34Z">
+      <class name="org.shweta.test.SelectedFlightTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2015-09-13T13:23:44Z" finished-at="2015-09-13T13:23:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.shweta.test.FlightReservationTest@150b51f4]" name="beforeMethod" is-config="true" duration-ms="8128" started-at="2015-09-05T21:59:15Z" finished-at="2015-09-05T21:59:24Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="beforeMethod" is-config="true" duration-ms="7701" started-at="2015-09-13T13:23:45Z" finished-at="2015-09-13T13:23:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testFlightReservation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.test.FlightReservationTest@150b51f4]" name="testFlightReservation" duration-ms="24513" started-at="2015-09-05T21:59:24Z" data-provider="dataProvider" finished-at="2015-09-05T21:59:48Z">
+        <test-method status="PASS" signature="testDepartToReturnCity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="testDepartToReturnCity" duration-ms="19476" started-at="2015-09-13T13:23:53Z" data-provider="dataProvider" finished-at="2015-09-13T13:24:12Z">
           <params>
             <param index="0">
               <value>
@@ -42,19 +42,39 @@
                 <![CDATA[London]]>
               </value>
             </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFlightReservation -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.shweta.test.FlightReservationTest@150b51f4]" name="afterMethod" is-config="true" duration-ms="650" started-at="2015-09-05T21:59:48Z" finished-at="2015-09-05T21:59:49Z">
+        </test-method> <!-- testDepartToReturnCity -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="afterMethod" is-config="true" duration-ms="541" started-at="2015-09-13T13:24:12Z" finished-at="2015-09-13T13:24:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.shweta.test.FlightReservationTest@150b51f4]" name="beforeMethod" is-config="true" duration-ms="6674" started-at="2015-09-05T21:59:49Z" finished-at="2015-09-05T21:59:55Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="beforeMethod" is-config="true" duration-ms="7924" started-at="2015-09-13T13:24:13Z" finished-at="2015-09-13T13:24:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testFlightReservation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.test.FlightReservationTest@150b51f4]" name="testFlightReservation" duration-ms="25029" started-at="2015-09-05T21:59:55Z" data-provider="dataProvider" finished-at="2015-09-05T22:00:20Z">
+        <test-method status="PASS" signature="testDepartToReturnCity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="testDepartToReturnCity" duration-ms="19335" started-at="2015-09-13T13:24:21Z" data-provider="dataProvider" finished-at="2015-09-13T13:24:40Z">
           <params>
             <param index="0">
               <value>
@@ -81,15 +101,153 @@
                 <![CDATA[Portland]]>
               </value>
             </param>
+            <param index="5">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFlightReservation -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.shweta.test.FlightReservationTest@150b51f4]" name="afterMethod" is-config="true" duration-ms="473" started-at="2015-09-05T22:00:20Z" finished-at="2015-09-05T22:00:21Z">
+        </test-method> <!-- testDepartToReturnCity -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="afterMethod" is-config="true" duration-ms="507" started-at="2015-09-13T13:24:40Z" finished-at="2015-09-13T13:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- org.shweta.test.FlightReservationTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="beforeMethod" is-config="true" duration-ms="6751" started-at="2015-09-13T13:24:41Z" finished-at="2015-09-13T13:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testReturnToDepartCity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="testReturnToDepartCity" duration-ms="19171" started-at="2015-09-13T13:24:47Z" data-provider="dataProvider" finished-at="2015-09-13T13:25:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReturnToDepartCity -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="afterMethod" is-config="true" duration-ms="447" started-at="2015-09-13T13:25:07Z" finished-at="2015-09-13T13:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="beforeMethod" is-config="true" duration-ms="6787" started-at="2015-09-13T13:25:07Z" finished-at="2015-09-13T13:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testReturnToDepartCity(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="testReturnToDepartCity" duration-ms="19272" started-at="2015-09-13T13:25:14Z" data-provider="dataProvider" finished-at="2015-09-13T13:25:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Portland]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReturnToDepartCity -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.shweta.test.SelectedFlightTest@4915a928]" name="afterMethod" is-config="true" duration-ms="496" started-at="2015-09-13T13:25:33Z" finished-at="2015-09-13T13:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.shweta.test.SelectedFlightTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

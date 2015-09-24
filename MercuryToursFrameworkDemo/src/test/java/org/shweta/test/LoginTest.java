@@ -17,7 +17,7 @@ public class LoginTest extends TestBase{
 	 
 
 	@Test(dataProvider="dataProvider")
-  public void testLoginSuccessful(String userName,String password) {
+	public void testLoginSuccessful(String userName,String password) {
 	  
 	  boolean testResult = homePage.clickSignOnLink()
 	  			.loginAs(userName,password)
@@ -27,17 +27,15 @@ public class LoginTest extends TestBase{
 	  
 	 }
   
-  /*@Test
-   public void testTripType() throws InterruptedException{
-	 // SelectFlightPage testResult =  
-	  String title = homePage.clickSignOnLink()
-	  			.loginAs("tutorial1","tutorial1")
-	  			.setReservationValues("abc").selectOutFlight().addPassengerDetails().getTitle();
-	 // Assert.assertTrue(title , "Selection is unsuccessful!!");
-	  System.out.println("Title is : "+title);
-	  Assert.assertEquals(title, "Flight Confirmation: Mercury Tours");
+	@Test(dataProvider="dataProvider")
+	public void testLoginUnSuccessful(String userName,String password) {
 	  
-   }*/
-  
+	  boolean testResult = homePage.clickSignOnLink()
+	  			.unsuccessfulLoginAs(userName, password)
+	  			.isLoginUnsuccessful();
+	  Assert.assertTrue(testResult , "Unsuccessful login test is unsuccessful!!");
+	  
+	 }
+    
   
 }

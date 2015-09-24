@@ -21,5 +21,30 @@ public class SignOnPage extends PageBase {
 		
 	}
 	
+	public SignOnPage unsuccessfulLoginAs(String userName , String password)
+	{
+		driver.findElement(By.name("userName")).sendKeys(userName);
+		driver.findElement(By.name("password")).sendKeys(password);
+		driver.findElement(By.name("login")).click();
+		
+		return new SignOnPage(driver);
+		
+		
+	}
+	public boolean isLoginUnsuccessful()
+	{
+		//return driver.findElement(By.className("myaccount_user")).getText().contains(userName);
+		return driver.getTitle().equals("Sign-on: Mercury Tours");
+		
+	}
+
+	public boolean isSignOffSuccessful()
+	{
+		//return driver.findElement(By.className("myaccount_user")).getText().contains(userName);
+		return driver.getTitle().equals("Sign-on: Mercury Tours");
+		
+	}
+	
+	
 
 }

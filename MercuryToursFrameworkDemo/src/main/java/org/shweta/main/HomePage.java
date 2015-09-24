@@ -16,11 +16,5 @@ public class HomePage extends PageBase {
 		return new SignOnPage(driver);
 	}
 	
-	public ShopPage clickShopLink()
-	{
-		driver.findElement(By.linkText("Shop")).click();
-		return new ShopPage(driver);
-	}
-	
 	
 }

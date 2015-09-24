@@ -7,6 +7,7 @@ import java.util.Random;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class SelectFlightPage extends PageBase{
 	
@@ -14,7 +15,42 @@ public class SelectFlightPage extends PageBase{
 	{
 		super(driver);
 	}
+	public String testDepartDate()
+	{
+		List <WebElement> list = driver.findElements(By.className("title"));
+		int departDateId = 3;
+		String departDateActual = list.get(departDateId).getText();
+		
+		return departDateActual;
+	}
 	
+	public String testReturnDate()
+	{
+		List <WebElement> list = driver.findElements(By.className("title"));
+		int returnDateId = 7;
+		String returnDateActual = list.get(returnDateId).getText();
+		
+		return returnDateActual;
+	}
+
+	public String testDepartToReturnCity()
+	{
+		List <WebElement> list = driver.findElements(By.className("title"));
+		int departToReturnCity = 2;
+		String departToReturnCityActual = list.get(departToReturnCity).getText();
+		
+		return departToReturnCityActual;
+	}
+
+	public String tesReturnToDepartCity()
+	{
+		List <WebElement> list = driver.findElements(By.className("title"));
+		int returnToDepartCity = 6;
+		String returnToDepartCityActual = list.get(returnToDepartCity).getText();
+		
+		return returnToDepartCityActual;
+	}
+
 	
 	public BookFlightPage selectOutFlight() throws InterruptedException
 	{

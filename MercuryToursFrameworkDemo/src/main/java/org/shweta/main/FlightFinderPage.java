@@ -17,7 +17,15 @@ public class FlightFinderPage extends PageBase {
 		
 	}
 	
-	public SelectFlightPage setReservationValues(String passCount,String fromCity , String toCity) throws InterruptedException
+	public SignOnPage SignOff()
+	{
+		
+		driver.findElement(By.linkText("SIGN-OFF")).click();
+		return new SignOnPage(driver);		
+		
+	}
+	
+	public SelectFlightPage setReservationValues(String passCount,String fromCity , String toCity,String departDate , String departMonth , String returnDate , String returnMonth) throws InterruptedException
 	{
 		
 		
@@ -43,12 +51,13 @@ public class FlightFinderPage extends PageBase {
 		//Select Origin Date
 		//Select Month
 		Select fromMonth = new Select(driver.findElement(By.xpath("//Select[@name='fromMonth']")));
-		fromMonth.selectByVisibleText("July");
-		
+		//fromMonth.selectByVisibleText("July");
+		fromMonth.selectByValue(departMonth);
 		//Select Date
 		
 		Select fromDay = new Select(driver.findElement(By.xpath("//Select[@name='fromDay']")));
-		fromDay.selectByVisibleText("5");
+		fromDay.selectByVisibleText(departDate);
+		//fromDay.selectByVisibleText("5");
 		//Select destination values
 		//Select destination City
 		
@@ -58,12 +67,13 @@ public class FlightFinderPage extends PageBase {
 		//Select Return Date
 		//Select Month
 		Select toMonth = new Select(driver.findElement(By.xpath("//Select[@name='toMonth']")));
-		toMonth.selectByVisibleText("July");
+		//toMonth.selectByVisibleText("July");
+		toMonth.selectByValue(returnMonth);
 		
 		//Select Date
 		Thread.sleep(2000);
 		Select toDay = new Select(driver.findElement(By.xpath("//Select[@name='toDay']")));
-		toDay.selectByVisibleText("11");
+		toDay.selectByVisibleText(returnDate);
 		Thread.sleep(5000);
 		
 		Thread.sleep(2000);
